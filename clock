@@ -1,3 +1,4 @@
+-----------------------------------------------------------------------------------JS
 const clockContainer = document.querySelector(".js-clock"),
   clockTitle = clockContainer.querySelector("h1");
 
@@ -16,3 +17,23 @@ function init() {
 }
 
 init();
+
+---------------------------------------------------------------
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>CLOCK</title>
+  </head>
+
+  <body>
+    <div class="js-clock">
+      <h1>00:00</h1>
+    </div>
+
+    <script src="clock.js"></script>
+  </body>
+</html>
+
