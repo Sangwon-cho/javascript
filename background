@@ -1,0 +1,19 @@
+const body = document.querySelector("body");
+
+function paintImage(num) {
+  const image = new Image();
+  image.src = `images/${num}.jpg`;
+  image.classList.add("bgImage"); // image에 클래스 이름 설정!
+  body.appendChild(image);
+}
+
+function genRandom() {
+  const number = Math.floor(Math.random() * 6) + 1;
+  return number;
+}
+
+function init() {
+  const randomNumber = genRandom();
+  paintImage(randomNumber);
+}
+init();
