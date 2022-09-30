@@ -1,5 +1,5 @@
 # 05/15/2020
-
+'''
 const title = document.querySelector("#title");
 
 const BASE = "black";
@@ -18,3 +18,4 @@ function init() {
   title.addEventListener("click", hadnClick);
 }
 init();
+'''
